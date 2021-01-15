@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pPAq00GRY5HPMpYRTeNhFd8XPXEc8cH6X9aNT9uCZ/3UJ2g6eNFkB7DYBMQQ7b+SdJLgn6yTQ+SnS6/UI2yQrA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anton\\Documents\\covid-tracker-backend\\covid-tracker-backend\\covid-tracker-backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anton\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

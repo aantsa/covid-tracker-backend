@@ -1,14 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using System.Net.Http;
 using System.Threading.Tasks;
-using System.Web;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 
 namespace star_wars.Controllers
 {
@@ -20,11 +12,11 @@ namespace star_wars.Controllers
 
 
         [HttpGet]
-        public async Task<string> GetCountries(string uri)
+        public async Task<string> GetCountries()
         {
             try
             {
-                var baseUrl = "https://covid-api.mmediagroup.fr/v1/cases/";
+                var baseUrl = "https://raw.githubusercontent.com/M-Media-Group/country-json/master/src/countries-master.json";
                 HttpResponseMessage response = await client.GetAsync(baseUrl);
                 return await response.Content.ReadAsStringAsync();
             }
